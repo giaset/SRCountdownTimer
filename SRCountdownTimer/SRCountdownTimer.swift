@@ -49,8 +49,8 @@ public class SRCountdownTimer: UIView {
 
     private var timer: Timer?
     private var beginingValue: Int = 1
-    private var totalTime: TimeInterval = 1
-    private var elapsedTime: TimeInterval = 0
+    public var totalTime: TimeInterval = 1
+    public var elapsedTime: TimeInterval = 0
     private var interval: TimeInterval = 1 // Interval which is set by a user
     private let fireInterval: TimeInterval = 0.01 // ~60 FPS
 
